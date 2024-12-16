@@ -6,7 +6,7 @@
 #   "pandas",
 #   "seaborn",
 #   "matplotib",
-#   "httpx"
+#   "httpx",
 #   "chardet"
 # ]
 # ///
