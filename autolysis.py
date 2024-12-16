@@ -8,6 +8,7 @@ matplotlib.use('Agg')  # Use non-interactive backend
 import matplotlib.pyplot as plt
 import httpx
 import chardet
+REGEX = r'(?m)^# /// (?P<type>[a-zA-Z0-9-]+)$\s(?P<content>(^#(| .*)$\s)+)^# ///$'
 
 # Constantspo
 API_URL = "https://aiproxy.sanand.workers.dev/openai/v1/chat/completions"
